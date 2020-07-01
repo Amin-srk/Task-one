@@ -132,12 +132,20 @@ section.client{
     text-align: center;
     width: 40%;
     margin: 0 auto;
-    background-color:rgb(170, 65, 170);
+    background-color:rgb(19, 8, 19);
     padding: 20px;
     border-radius: 5px;
     color: white;
     margin-top: 10%;
+
+    animation-name: box;
+    animation-duration: 4s;
 }
+
+@keyframes box {
+    from {background-color: rgb(19, 8, 19);}
+    to {background-color: yellow;}
+  }
 .client-box a:hover{
     font-size: 18px;
 
@@ -161,4 +169,74 @@ footer p{
 
 }
 
+/** Bonous work **/
+
+.ten-marks{
+    background-color: burlywood;
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+section.top-banner{
+    margin-top: 100px;
+   background-image: url(img/hero-bg.jpg);
+   
+   height: 600px;
+  
+}
+
+.half-width{ 
+        width: 42%;
+        float: left;
+        margin-left: 3%;
+        padding-left: 3%;
+        padding-top: 5%;
+    }
+ 
+ 
+
+.highlight{
+    color: rgb(134, 134, 218);
+    font-size: 36px;
+}
+.hero-clr{
+    color: coral;
+    font-size: 30px;
+}
+.hero-2{
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+   
+}
+ul li a:hover{
+    background-color: yellow;
+    color: black;
+}
+ 
+.mobile{
+    margin-top: 40px;
+}
     
+.hero-p{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
