@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+ 
+section {
+  padding-bottom: 150px;
+    height: 500px;
+    padding-top: 100px;
+}
+
+section.intro{
+    background-image: url(img/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ 
+.half-area {
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 3%;
+    
+     
+ 
+}
+.content{
+    padding: 70px 0px;
+}
+img{
+    width: 100%;
+  
+}
+h1{
+    font-size: 50px;
+  
+}
+p{
+    font-size: 14px;
+    color: darkslategrey;
+   
+}
+.purple-highlight{
+    color: rgb(170, 50, 170);
+}
+
+.link-button{
+    
+
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: rgb(170, 65, 170);
+ 
+
+color: white;
+text-decoration: none;
+color: white;
+
+    text-transform: uppercase;
+}
+  
+.link-button:hover{
+    color:rgb(235, 235, 27);
+    background-color: rgb(12, 1, 1);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    
+  
+}
+ 
+
+.link-button a:hover{
+    color: black;     
+}
+/** Biography section **/
+
+section.biography{
+    background-image: url(img/biography-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/** Latest work section **/
+.work{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 10px;
+}
+.wor img{
+    width: 100%;
+}
+.latest-work{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.woek h1{
+    margin: 10px 0px;
+}
+/** Client section **/
+section.client{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.client-content{
+ margin: 0 auto;
+    color: black;
+    width: 40%;
+    text-align: center;
+}
+.client-box{
+     
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(170, 50, 170);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+}
+.client-box p{
+    color: white;
+}
+.client-box a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 40px;
+   
+}
+footer p{
+    font-size: 20px;
+    color: gray;
+
+}
+
+    
